@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3311EBFC1976937F00D54A60 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3311EBFB1976937F00D54A60 /* dot.png */; };
 		33172D6419762BDA00FBD387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33172D6319762BDA00FBD387 /* Foundation.framework */; };
 		33172D6619762BDA00FBD387 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33172D6519762BDA00FBD387 /* CoreGraphics.framework */; };
 		33172D6819762BDA00FBD387 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33172D6719762BDA00FBD387 /* UIKit.framework */; };
@@ -21,6 +22,14 @@
 		33172D8519762BDA00FBD387 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33172D6719762BDA00FBD387 /* UIKit.framework */; };
 		33172D8D19762BDA00FBD387 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33172D8B19762BDA00FBD387 /* InfoPlist.strings */; };
 		33172D8F19762BDA00FBD387 /* pendulumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33172D8E19762BDA00FBD387 /* pendulumTests.m */; };
+		33172D9B19762C2900FBD387 /* hour.png in Resources */ = {isa = PBXBuildFile; fileRef = 33172D9819762C2900FBD387 /* hour.png */; };
+		33172D9C19762C2900FBD387 /* minute.png in Resources */ = {isa = PBXBuildFile; fileRef = 33172D9919762C2900FBD387 /* minute.png */; };
+		33172D9F19762C6300FBD387 /* pendulum.png in Resources */ = {isa = PBXBuildFile; fileRef = 33172D9E19762C6300FBD387 /* pendulum.png */; };
+		33172DA119762C8300FBD387 /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 33172DA019762C8300FBD387 /* clock.png */; };
+		33172DA3197630E200FBD387 /* bird.png in Resources */ = {isa = PBXBuildFile; fileRef = 33172DA2197630E200FBD387 /* bird.png */; };
+		33172DA519763F8F00FBD387 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 33172DA419763F8F00FBD387 /* second.png */; };
+		33172DA71976696100FBD387 /* alarmSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 33172DA61976696100FBD387 /* alarmSound.wav */; };
+		33172DA9197669CA00FBD387 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33172DA8197669CA00FBD387 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3311EBFB1976937F00D54A60 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
 		33172D6019762BDA00FBD387 /* pendulum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pendulum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33172D6319762BDA00FBD387 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		33172D6519762BDA00FBD387 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +63,14 @@
 		33172D8A19762BDA00FBD387 /* pendulumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pendulumTests-Info.plist"; sourceTree = "<group>"; };
 		33172D8C19762BDA00FBD387 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		33172D8E19762BDA00FBD387 /* pendulumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pendulumTests.m; sourceTree = "<group>"; };
+		33172D9819762C2900FBD387 /* hour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hour.png; sourceTree = "<group>"; };
+		33172D9919762C2900FBD387 /* minute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minute.png; sourceTree = "<group>"; };
+		33172D9E19762C6300FBD387 /* pendulum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pendulum.png; sourceTree = "<group>"; };
+		33172DA019762C8300FBD387 /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		33172DA2197630E200FBD387 /* bird.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird.png; sourceTree = "<group>"; };
+		33172DA419763F8F00FBD387 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		33172DA61976696100FBD387 /* alarmSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = alarmSound.wav; sourceTree = "<group>"; };
+		33172DA8197669CA00FBD387 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33172DA9197669CA00FBD387 /* AudioToolbox.framework in Frameworks */,
 				33172D6619762BDA00FBD387 /* CoreGraphics.framework in Frameworks */,
 				33172D6819762BDA00FBD387 /* UIKit.framework in Frameworks */,
 				33172D6419762BDA00FBD387 /* Foundation.framework in Frameworks */,
@@ -101,6 +120,7 @@
 		33172D6219762BDA00FBD387 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				33172DA8197669CA00FBD387 /* AudioToolbox.framework */,
 				33172D6319762BDA00FBD387 /* Foundation.framework */,
 				33172D6519762BDA00FBD387 /* CoreGraphics.framework */,
 				33172D6719762BDA00FBD387 /* UIKit.framework */,
@@ -112,6 +132,14 @@
 		33172D6919762BDA00FBD387 /* pendulum */ = {
 			isa = PBXGroup;
 			children = (
+				33172D9E19762C6300FBD387 /* pendulum.png */,
+				33172D9819762C2900FBD387 /* hour.png */,
+				33172DA2197630E200FBD387 /* bird.png */,
+				3311EBFB1976937F00D54A60 /* dot.png */,
+				33172DA419763F8F00FBD387 /* second.png */,
+				33172DA61976696100FBD387 /* alarmSound.wav */,
+				33172DA019762C8300FBD387 /* clock.png */,
+				33172D9919762C2900FBD387 /* minute.png */,
 				33172D7219762BDA00FBD387 /* AppDelegate.h */,
 				33172D7319762BDA00FBD387 /* AppDelegate.m */,
 				33172D7519762BDA00FBD387 /* Main.storyboard */,
@@ -228,8 +256,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33172DA119762C8300FBD387 /* clock.png in Resources */,
+				33172D9F19762C6300FBD387 /* pendulum.png in Resources */,
+				33172DA3197630E200FBD387 /* bird.png in Resources */,
+				33172D9C19762C2900FBD387 /* minute.png in Resources */,
+				3311EBFC1976937F00D54A60 /* dot.png in Resources */,
 				33172D7C19762BDA00FBD387 /* Images.xcassets in Resources */,
+				33172D9B19762C2900FBD387 /* hour.png in Resources */,
+				33172DA519763F8F00FBD387 /* second.png in Resources */,
 				33172D6E19762BDA00FBD387 /* InfoPlist.strings in Resources */,
+				33172DA71976696100FBD387 /* alarmSound.wav in Resources */,
 				33172D7719762BDA00FBD387 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +492,7 @@
 				33172D9419762BDA00FBD387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33172D9519762BDA00FBD387 /* Build configuration list for PBXNativeTarget "pendulumTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +501,7 @@
 				33172D9719762BDA00FBD387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
