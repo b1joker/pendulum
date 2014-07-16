@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33172D6419762BDA00FBD387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33172D6319762BDA00FBD387 /* Foundation.framework */; };
+		33172D6619762BDA00FBD387 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33172D6519762BDA00FBD387 /* CoreGraphics.framework */; };
+		33172D6819762BDA00FBD387 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33172D6719762BDA00FBD387 /* UIKit.framework */; };
+		33172D6E19762BDA00FBD387 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33172D6C19762BDA00FBD387 /* InfoPlist.strings */; };
+		33172D7019762BDA00FBD387 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33172D6F19762BDA00FBD387 /* main.m */; };
+		33172D7419762BDA00FBD387 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33172D7319762BDA00FBD387 /* AppDelegate.m */; };
+		33172D7719762BDA00FBD387 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33172D7519762BDA00FBD387 /* Main.storyboard */; };
+		33172D7A19762BDA00FBD387 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33172D7919762BDA00FBD387 /* ViewController.m */; };
+		33172D7C19762BDA00FBD387 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33172D7B19762BDA00FBD387 /* Images.xcassets */; };
+		33172D8319762BDA00FBD387 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33172D8219762BDA00FBD387 /* XCTest.framework */; };
+		33172D8419762BDA00FBD387 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33172D6319762BDA00FBD387 /* Foundation.framework */; };
+		33172D8519762BDA00FBD387 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33172D6719762BDA00FBD387 /* UIKit.framework */; };
+		33172D8D19762BDA00FBD387 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33172D8B19762BDA00FBD387 /* InfoPlist.strings */; };
+		33172D8F19762BDA00FBD387 /* pendulumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33172D8E19762BDA00FBD387 /* pendulumTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33172D8619762BDA00FBD387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33172D5819762BD900FBD387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33172D5F19762BDA00FBD387;
+			remoteInfo = pendulum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33172D6019762BDA00FBD387 /* pendulum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pendulum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33172D6319762BDA00FBD387 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33172D6519762BDA00FBD387 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33172D6719762BDA00FBD387 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33172D6B19762BDA00FBD387 /* pendulum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pendulum-Info.plist"; sourceTree = "<group>"; };
+		33172D6D19762BDA00FBD387 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33172D6F19762BDA00FBD387 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33172D7119762BDA00FBD387 /* pendulum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pendulum-Prefix.pch"; sourceTree = "<group>"; };
+		33172D7219762BDA00FBD387 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33172D7319762BDA00FBD387 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33172D7619762BDA00FBD387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33172D7819762BDA00FBD387 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33172D7919762BDA00FBD387 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33172D7B19762BDA00FBD387 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33172D8119762BDA00FBD387 /* pendulumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pendulumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33172D8219762BDA00FBD387 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33172D8A19762BDA00FBD387 /* pendulumTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pendulumTests-Info.plist"; sourceTree = "<group>"; };
+		33172D8C19762BDA00FBD387 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33172D8E19762BDA00FBD387 /* pendulumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pendulumTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33172D5D19762BDA00FBD387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33172D6619762BDA00FBD387 /* CoreGraphics.framework in Frameworks */,
+				33172D6819762BDA00FBD387 /* UIKit.framework in Frameworks */,
+				33172D6419762BDA00FBD387 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33172D7E19762BDA00FBD387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33172D8319762BDA00FBD387 /* XCTest.framework in Frameworks */,
+				33172D8519762BDA00FBD387 /* UIKit.framework in Frameworks */,
+				33172D8419762BDA00FBD387 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33172D5719762BD900FBD387 = {
+			isa = PBXGroup;
+			children = (
+				33172D6919762BDA00FBD387 /* pendulum */,
+				33172D8819762BDA00FBD387 /* pendulumTests */,
+				33172D6219762BDA00FBD387 /* Frameworks */,
+				33172D6119762BDA00FBD387 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33172D6119762BDA00FBD387 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33172D6019762BDA00FBD387 /* pendulum.app */,
+				33172D8119762BDA00FBD387 /* pendulumTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33172D6219762BDA00FBD387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33172D6319762BDA00FBD387 /* Foundation.framework */,
+				33172D6519762BDA00FBD387 /* CoreGraphics.framework */,
+				33172D6719762BDA00FBD387 /* UIKit.framework */,
+				33172D8219762BDA00FBD387 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33172D6919762BDA00FBD387 /* pendulum */ = {
+			isa = PBXGroup;
+			children = (
+				33172D7219762BDA00FBD387 /* AppDelegate.h */,
+				33172D7319762BDA00FBD387 /* AppDelegate.m */,
+				33172D7519762BDA00FBD387 /* Main.storyboard */,
+				33172D7819762BDA00FBD387 /* ViewController.h */,
+				33172D7919762BDA00FBD387 /* ViewController.m */,
+				33172D7B19762BDA00FBD387 /* Images.xcassets */,
+				33172D6A19762BDA00FBD387 /* Supporting Files */,
+			);
+			path = pendulum;
+			sourceTree = "<group>";
+		};
+		33172D6A19762BDA00FBD387 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33172D6B19762BDA00FBD387 /* pendulum-Info.plist */,
+				33172D6C19762BDA00FBD387 /* InfoPlist.strings */,
+				33172D6F19762BDA00FBD387 /* main.m */,
+				33172D7119762BDA00FBD387 /* pendulum-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33172D8819762BDA00FBD387 /* pendulumTests */ = {
+			isa = PBXGroup;
+			children = (
+				33172D8E19762BDA00FBD387 /* pendulumTests.m */,
+				33172D8919762BDA00FBD387 /* Supporting Files */,
+			);
+			path = pendulumTests;
+			sourceTree = "<group>";
+		};
+		33172D8919762BDA00FBD387 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33172D8A19762BDA00FBD387 /* pendulumTests-Info.plist */,
+				33172D8B19762BDA00FBD387 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33172D5F19762BDA00FBD387 /* pendulum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33172D9219762BDA00FBD387 /* Build configuration list for PBXNativeTarget "pendulum" */;
+			buildPhases = (
+				33172D5C19762BDA00FBD387 /* Sources */,
+				33172D5D19762BDA00FBD387 /* Frameworks */,
+				33172D5E19762BDA00FBD387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pendulum;
+			productName = pendulum;
+			productReference = 33172D6019762BDA00FBD387 /* pendulum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33172D8019762BDA00FBD387 /* pendulumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33172D9519762BDA00FBD387 /* Build configuration list for PBXNativeTarget "pendulumTests" */;
+			buildPhases = (
+				33172D7D19762BDA00FBD387 /* Sources */,
+				33172D7E19762BDA00FBD387 /* Frameworks */,
+				33172D7F19762BDA00FBD387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33172D8719762BDA00FBD387 /* PBXTargetDependency */,
+			);
+			name = pendulumTests;
+			productName = pendulumTests;
+			productReference = 33172D8119762BDA00FBD387 /* pendulumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33172D5819762BD900FBD387 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nguyễn Huỳnh Lâm";
+				TargetAttributes = {
+					33172D8019762BDA00FBD387 = {
+						TestTargetID = 33172D5F19762BDA00FBD387;
+					};
+				};
+			};
+			buildConfigurationList = 33172D5B19762BD900FBD387 /* Build configuration list for PBXProject "pendulum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33172D5719762BD900FBD387;
+			productRefGroup = 33172D6119762BDA00FBD387 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33172D5F19762BDA00FBD387 /* pendulum */,
+				33172D8019762BDA00FBD387 /* pendulumTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33172D5E19762BDA00FBD387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33172D7C19762BDA00FBD387 /* Images.xcassets in Resources */,
+				33172D6E19762BDA00FBD387 /* InfoPlist.strings in Resources */,
+				33172D7719762BDA00FBD387 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33172D7F19762BDA00FBD387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33172D8D19762BDA00FBD387 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33172D5C19762BDA00FBD387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33172D7A19762BDA00FBD387 /* ViewController.m in Sources */,
+				33172D7419762BDA00FBD387 /* AppDelegate.m in Sources */,
+				33172D7019762BDA00FBD387 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33172D7D19762BDA00FBD387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33172D8F19762BDA00FBD387 /* pendulumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33172D8719762BDA00FBD387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33172D5F19762BDA00FBD387 /* pendulum */;
+			targetProxy = 33172D8619762BDA00FBD387 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33172D6C19762BDA00FBD387 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33172D6D19762BDA00FBD387 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33172D7519762BDA00FBD387 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33172D7619762BDA00FBD387 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33172D8B19762BDA00FBD387 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33172D8C19762BDA00FBD387 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33172D9019762BDA00FBD387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33172D9119762BDA00FBD387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33172D9319762BDA00FBD387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pendulum/pendulum-Prefix.pch";
+				INFOPLIST_FILE = "pendulum/pendulum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33172D9419762BDA00FBD387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pendulum/pendulum-Prefix.pch";
+				INFOPLIST_FILE = "pendulum/pendulum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33172D9619762BDA00FBD387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pendulum.app/pendulum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pendulum/pendulum-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "pendulumTests/pendulumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33172D9719762BDA00FBD387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/pendulum.app/pendulum";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "pendulum/pendulum-Prefix.pch";
+				INFOPLIST_FILE = "pendulumTests/pendulumTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33172D5B19762BD900FBD387 /* Build configuration list for PBXProject "pendulum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33172D9019762BDA00FBD387 /* Debug */,
+				33172D9119762BDA00FBD387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33172D9219762BDA00FBD387 /* Build configuration list for PBXNativeTarget "pendulum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33172D9319762BDA00FBD387 /* Debug */,
+				33172D9419762BDA00FBD387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33172D9519762BDA00FBD387 /* Build configuration list for PBXNativeTarget "pendulumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33172D9619762BDA00FBD387 /* Debug */,
+				33172D9719762BDA00FBD387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33172D5819762BD900FBD387 /* Project object */;
+}
